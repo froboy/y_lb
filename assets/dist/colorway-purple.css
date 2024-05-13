@@ -1,0 +1,18 @@
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./assets/scss/colorway-purple.scss ***!
+  \*************************************************************************************************************************************************************************************************/
+:root {
+  --wsPrimaryColor: var(--ylb-color-purple-dark);
+  --wsPrimaryColorRGB: var(--ylb-color-rgb-purple-dark);
+  --wsSecondaryColor: var(--ylb-color-purple);
+  --wsSecondaryColorRGB: var(--ylb-color-rgb-purple);
+  --wsTertiaryColor: var(--ylb-color-purple-light);
+  --wsTertiaryColorRGB: var(--ylb-color-rgb-purple-light);
+  --wsPartnerColor: var(--ylb-color-red-dark);
+  --wsPartnerColorRGB: var(--ylb-color-rgb-red-dark);
+  --wsLogoChevronDark: var(--ylb-color-purple-dark);
+  --wsLogoChevronMid: var(--ylb-color-purple);
+  --wsLogoChevronLight: var(--ylb-color-purple-light);
+  --wsLogoTriangleDark: var(--ylb-color-red-dark);
+  --wsLogoTriangleLight: var(--ylb-color-red);
+}

@@ -1,14 +1,43 @@
-@import "_functions";
-@import "_mixins";
-@import "_variables";
-
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/mixins/color-mode";
 
 :root {
   --ylb-font-family-cachet: Cachet, Verdana, Geneva, sans-serif;
   --ylb-font-family-verdana: Verdana, Geneva, sans-serif;
-  --ylb-font-family: "Cachet", Verdana, Geneva, sans-serif;
+  --ylb-font-family: var(--ylb-font-family-cachet);
   --ylb-font-family-medium: "Cachet Medium", Cachet, Verdana, sans-serif;
   --ylb-font-family-book: "Cachet Book", "Cachet W01 Book", Cachet, Verdana, sans-serif;
+}
+
+//@include color-mode(light) {
+//  --bs-body-color: var(--ylb-color-dark-grey-2);
+//  --bs-body-color-rgb: var(--ylb-color-rgb-dark-grey-2);
+//  --bs-body-bg: var(--ylb-color-white);
+//  --bs-body-bg-rgb: var(--ylb-color-rgb-white);
+//}
+//
+//@include color-mode(dark) {
+//  --bs-body-color: var(--ylb-color-white);
+//  --bs-body-color-rgb: var(--ylb-color-rgb-white);
+//  --bs-body-bg: var(--ylb-color-dark-grey-2);
+//  --bs-body-bg-rgb: var(--ylb-color-rgb-dark-grey-2);
+//}
+
+// Dark mode tests
+body.page-with-lb {
+  margin: 0;
+  font-family: var(--ylb-body-font-family);
+  font-size: var(--ylb-body-font-size);
+  font-weight: var(--ylb-body-font-weight);
+  line-height: var(--ylb-body-line-height);
+  color: var(--ylb-body-color);
+  text-align: var(--ylb-body-text-align);
+  background-color: var(--ylb-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .page-with-lb {

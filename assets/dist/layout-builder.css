@@ -1,0 +1,492 @@
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./assets/scss/layout-builder.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.form-required:after, details .form-required .summary:after {
+  margin-right: 0.15em !important;
+  margin-left: 0.15em !important;
+  content: "*" !important;
+  vertical-align: text-top !important;
+  color: var(--ylb-color-red, red) !important;
+  background: none !important;
+}
+
+.openy_carnation form.node-layout-builder-form > .form-actions {
+  text-align: unset;
+}
+.openy_carnation form.node-layout-builder-form > .form-actions div.input-wrapper {
+  display: inline;
+}
+.openy_carnation #edit-ws-settings-container summary {
+  color: var(--color-text, black);
+  font-weight: 700;
+  padding-top: 1em;
+}
+.openy_carnation [data-drupal-messages] {
+  margin: 1.5rem 2rem;
+}
+
+.js-off-canvas-dialog-open .modal-backdrop {
+  display: none;
+}
+
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-item-settings-admin-label,
+#drupal-off-canvas-wrapper .form-item-settings-admin-label {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  font-size: 1.15em;
+  font-weight: bold;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-item-settings-admin-label label,
+#drupal-off-canvas-wrapper .form-item-settings-admin-label label {
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-item-settings-admin-label label:not(caption),
+#drupal-off-canvas-wrapper .form-item-settings-admin-label label:not(caption) {
+  position: absolute !important;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .fieldset,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) fieldset,
+#drupal-off-canvas-wrapper .fieldset,
+#drupal-off-canvas-wrapper fieldset {
+  margin: calc(2 * var(--off-canvas-vertical-spacing-unit)) 0;
+  padding: var(--off-canvas-vertical-spacing-unit);
+  border: solid var(--drupal-off-canvas-fieldset-border-width) var(--drupal-off-canvas-fieldset-border-color);
+  background-color: var(--drupal-off-canvas-fieldset-background-color);
+  min-width: unset;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .fieldset legend + .fieldset-wrapper,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) fieldset legend + .fieldset-wrapper,
+#drupal-off-canvas-wrapper .fieldset legend + .fieldset-wrapper,
+#drupal-off-canvas-wrapper fieldset legend + .fieldset-wrapper {
+  margin-top: 1em;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .fieldset .form-item,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) fieldset .form-item,
+#drupal-off-canvas-wrapper .fieldset .form-item,
+#drupal-off-canvas-wrapper fieldset .form-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) #bs_nav-tabs:not([data-drupal-ck-style-fence] *),
+#drupal-off-canvas-wrapper #bs_nav-tabs:not([data-drupal-ck-style-fence] *) {
+  width: 100%;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) legend,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .fieldset-legend,
+#drupal-off-canvas-wrapper legend,
+#drupal-off-canvas-wrapper .fieldset-legend {
+  display: contents;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary,
+#drupal-off-canvas-wrapper details > summary {
+  color: #003cc5;
+  background-color: #f0f5fd;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary:hover,
+#drupal-off-canvas-wrapper details > summary:hover {
+  color: #eee;
+  background-color: #222;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary:after,
+#drupal-off-canvas-wrapper details > summary:after {
+  display: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary:before,
+#drupal-off-canvas-wrapper details > summary:before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27%3e%3cpath d=%27M5.21 1.314L3.79 2.723l5.302 5.353-5.303 5.354 1.422 1.408 6.697-6.762z%27 fill=%27%230036B1%27/%3e%3c/svg%3e");
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .ief-entity-table,
+#drupal-off-canvas-wrapper .ief-entity-table {
+  width: 100%;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .ief-entity-table .ief-form .ck-editor,
+#drupal-off-canvas-wrapper .ief-entity-table .ief-form .ck-editor {
+  width: 99%;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .ief-tabledrag-handle, #drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .field-multiple-drag,
+#drupal-off-canvas-wrapper table .draggable .ief-tabledrag-handle,
+#drupal-off-canvas-wrapper table .draggable .field-multiple-drag {
+  display: table-cell;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .ief-tabledrag-handle a .handle, #drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .field-multiple-drag a .handle,
+#drupal-off-canvas-wrapper table .draggable .ief-tabledrag-handle a .handle,
+#drupal-off-canvas-wrapper table .draggable .field-multiple-drag a .handle {
+  width: 28px;
+  height: 29px;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .ief-tabledrag-handle a:after, #drupal-off-canvas:not(.drupal-off-canvas-reset) table .draggable .field-multiple-drag a:after,
+#drupal-off-canvas-wrapper table .draggable .ief-tabledrag-handle a:after,
+#drupal-off-canvas-wrapper table .draggable .field-multiple-drag a:after {
+  display: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--appearance details > summary,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--settings details > summary,
+#drupal-off-canvas-wrapper .bs_tab-pane--appearance details > summary,
+#drupal-off-canvas-wrapper .bs_tab-pane--settings details > summary {
+  color: #eee;
+  background-color: inherit;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--appearance details > summary:hover,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--settings details > summary:hover,
+#drupal-off-canvas-wrapper .bs_tab-pane--appearance details > summary:hover,
+#drupal-off-canvas-wrapper .bs_tab-pane--settings details > summary:hover {
+  background-color: #222;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--appearance details > summary:before,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--settings details > summary:before,
+#drupal-off-canvas-wrapper .bs_tab-pane--appearance details > summary:before,
+#drupal-off-canvas-wrapper .bs_tab-pane--settings details > summary:before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27%3e%3cpath d=%27M5.21 1.314L3.79 2.723l5.302 5.353-5.303 5.354 1.422 1.408 6.697-6.762z%27 fill=%27%23ffffff%27/%3e%3c/svg%3e");
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .inline-block-list,
+#drupal-off-canvas-wrapper .inline-block-list {
+  margin-top: 1rem !important;
+  gap: 1rem;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .inline-block-list li,
+#drupal-off-canvas-wrapper .inline-block-list li {
+  width: 46%;
+  border-bottom: 0;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .inline-block-list li a,
+#drupal-off-canvas-wrapper .inline-block-list li a {
+  max-height: 50px;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .js-form-type-radio .blb_breakpoint_cols + label,
+#drupal-off-canvas-wrapper .js-form-type-radio .blb_breakpoint_cols + label {
+  display: flex;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-textarea,
+#drupal-off-canvas-wrapper .form-textarea {
+  background-color: #fff;
+  color: #222330;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-select,
+#drupal-off-canvas-wrapper .form-select {
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .select-wrapper:before,
+#drupal-off-canvas-wrapper .select-wrapper:before {
+  display: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .blb_tab-content .bs_tab-pane--content details,
+#drupal-off-canvas-wrapper .blb_tab-content .bs_tab-pane--content details {
+  margin: 0;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--appearance fieldset,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--layout fieldset,
+#drupal-off-canvas-wrapper .bs_tab-pane--appearance fieldset,
+#drupal-off-canvas-wrapper .bs_tab-pane--layout fieldset {
+  display: block;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane--layout .form-type-radio,
+#drupal-off-canvas-wrapper .bs_tab-pane--layout .form-type-radio {
+  display: block;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_tab-pane .alert-modal,
+#drupal-off-canvas-wrapper .bs_tab-pane .alert-modal {
+  position: relative;
+  border: 1px solid red;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .button.dialog-cancel,
+#drupal-off-canvas-wrapper .button.dialog-cancel {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin-top: 1em;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .button.dialog-cancel:hover,
+#drupal-off-canvas-wrapper .button.dialog-cancel:hover {
+  text-decoration: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary:hover::before,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details > summary:hover:focus::before,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[open] > summary::before,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[open] > summary:hover:focus::before,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[open] > summary:hover::before,
+#drupal-off-canvas-wrapper details > summary:hover::before,
+#drupal-off-canvas-wrapper details > summary:hover:focus::before,
+#drupal-off-canvas-wrapper details[open] > summary::before,
+#drupal-off-canvas-wrapper details[open] > summary:hover:focus::before,
+#drupal-off-canvas-wrapper details[open] > summary:hover::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27%3e%3cpath d=%27M5.21 1.314L3.79 2.723l5.302 5.353-5.303 5.354 1.422 1.408 6.697-6.762z%27 fill=%27%23ffffff%27/%3e%3c/svg%3e");
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-text:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-tel:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-email:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-url:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-search:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-number:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-color:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-file:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-textarea:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-date:focus,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .form-time:focus,
+#drupal-off-canvas-wrapper .form-text:focus,
+#drupal-off-canvas-wrapper .form-tel:focus,
+#drupal-off-canvas-wrapper .form-email:focus,
+#drupal-off-canvas-wrapper .form-url:focus,
+#drupal-off-canvas-wrapper .form-search:focus,
+#drupal-off-canvas-wrapper .form-number:focus,
+#drupal-off-canvas-wrapper .form-color:focus,
+#drupal-off-canvas-wrapper .form-file:focus,
+#drupal-off-canvas-wrapper .form-textarea:focus,
+#drupal-off-canvas-wrapper .form-date:focus,
+#drupal-off-canvas-wrapper .form-time:focus {
+  background-color: #fff;
+  color: #222330;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) tr td:first-child,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) tr th:first-child,
+#drupal-off-canvas-wrapper tr td:first-child,
+#drupal-off-canvas-wrapper tr th:first-child {
+  padding-left: 0;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) th:first-child,
+#drupal-off-canvas:not(.drupal-off-canvas-reset) td:first-child,
+#drupal-off-canvas-wrapper th:first-child,
+#drupal-off-canvas-wrapper td:first-child {
+  width: auto;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .media-library-item .media-library-item__preview img,
+#drupal-off-canvas-wrapper .media-library-item .media-library-item__preview img {
+  width: 100%;
+  height: auto;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .paragraphs-actions,
+#drupal-off-canvas-wrapper .paragraphs-actions {
+  display: flex;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-toggle,
+#drupal-off-canvas-wrapper .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-toggle {
+  display: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-actions,
+#drupal-off-canvas-wrapper .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-actions {
+  display: flex;
+  position: relative;
+  top: 0;
+  border: none;
+  box-shadow: none;
+  margin-left: 1em;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-actions input,
+#drupal-off-canvas-wrapper .paragraphs-actions .paragraphs-dropdown .paragraphs-dropdown-actions input {
+  margin-left: 1em;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .entities-list.entity-type--media .item-container.rendered-entity,
+#drupal-off-canvas-wrapper .entities-list.entity-type--media .item-container.rendered-entity {
+  display: flex;
+  justify-content: space-between;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .bs_nav-tabs,
+#drupal-off-canvas-wrapper .bs_nav-tabs {
+  position: relative !important;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item[data-drupal-selector=edit-appearance-ws-style-ws-style-option-lb-cards] .form-radios label, #drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item[data-drupal-selector=edit-appearance-ws-style-ws-style-option-hero-banner] .form-radios label,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item[data-drupal-selector=edit-appearance-ws-style-ws-style-option-lb-cards] .form-radios label,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item[data-drupal-selector=edit-appearance-ws-style-ws-style-option-hero-banner] .form-radios label {
+  flex-direction: column;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  flex-wrap: wrap;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios label,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios label img,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios label img {
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) label,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) label {
+  opacity: 0.3;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) .form-type-radio:has(input:checked) label,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) .form-type-radio:has(input:checked) label {
+  opacity: 1;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) .form-type-radio:has(input:checked) label img,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios:has(input:checked) .form-type-radio:has(input:checked) label img {
+  border-color: #41A5FF;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios input,
+#drupal-off-canvas-wrapper details[data-drupal-selector=edit-appearance-ws-style] .form-item .form-radios input {
+  display: none;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) table td:not(.draggable),
+#drupal-off-canvas-wrapper table td:not(.draggable) {
+  display: table-cell;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) fieldset table,
+#drupal-off-canvas-wrapper fieldset table {
+  margin: 0;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .btn-primary,
+#drupal-off-canvas-wrapper .btn-primary {
+  width: auto;
+  border-radius: var(--button-border-radius-size);
+  font-weight: 700;
+  line-height: 1rem;
+  padding: calc(var(--space-m) - 1px) calc(var(--space-l) - 1px);
+  color: #383A40;
+  background: #26A5FF;
+  text-wrap: nowrap;
+  margin: 0.5rem;
+  font-size: 0.85rem;
+}
+#drupal-off-canvas:not(.drupal-off-canvas-reset) .btn-primary:hover,
+#drupal-off-canvas-wrapper .btn-primary:hover {
+  background: #008ef2;
+}
+
+.field-media-image img {
+  width: auto;
+}
+
+.layout-builder__section .container-wrapper[class|=ylb-bg] .layout-builder-block {
+  background-color: transparent;
+}
+.layout-builder__section .header--top-right-column,
+.layout-builder__section .header--top-left-column,
+.layout-builder__section .header--bottom-left-column,
+.layout-builder__section .header--bottom-middle-column,
+.layout-builder__section .header--bottom-right-column {
+  display: block;
+}
+.layout-builder__section .header {
+  display: block;
+}
+.layout-builder__section .header--top {
+  height: auto;
+}
+.layout-builder__section .header--top-left-column .block-ws-site-name {
+  padding: 1.5em;
+}
+.layout-builder__section .header--bottom {
+  height: auto;
+}
+.layout-builder__section .header--bottom nav {
+  height: auto;
+}
+.layout-builder__section .header--bottom .menu-toggle {
+  display: none;
+}
+.layout-builder__section .header--bottom-left-column {
+  width: 20%;
+}
+.layout-builder__section .header--bottom-middle-column {
+  width: 60%;
+}
+.layout-builder__section .header--bottom-middle-column .ws-main-menu-wrapper ul.row-level-1 {
+  max-height: none;
+}
+.layout-builder__section .header--bottom-middle-column .ws-main-menu-wrapper ul.row-level-1 li a {
+  padding: 5px 0;
+}
+.layout-builder__section .header--bottom-right-column {
+  width: 20%;
+}
+.layout-builder__section .layout-builder-block {
+  background-color: transparent;
+}
+
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] {
+  display: flex;
+  flex-wrap: wrap;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] label {
+  padding-left: 10px;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item {
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(216, 217, 224, 0.8);
+  border-radius: 15px;
+  cursor: pointer;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item:has(input:checked) {
+  background-color: var(--ylb-color-light-grey-2, #e7e7e7);
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item:has(input[value=ws_border_radius_none]) {
+  border-radius: 0;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item:has(input[value=ws_border_radius_10]) {
+  border-radius: 10px;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item:has(input[value=ws_border_radius_20]) {
+  border-radius: 20px;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item .input-wrapper {
+  display: none;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-] .form-item label {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-]#edit-ws-design-settings-colorway label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#edit-ws-settings-container div[id^=edit-ws-design-settings-]#edit-ws-design-settings-colorway label img {
+  width: 114px;
+}
+
+.ui-dialog .select-wrapper:before {
+  top: 15px;
+}
+.ui-dialog .form-select {
+  background-image: none;
+}
+.ui-dialog .form-select:hover {
+  background-image: none;
+}
+.ui-dialog table {
+  width: 100%;
+}
+.ui-dialog table .draggable a .handle {
+  width: 28px;
+  height: 29px;
+}
+.ui-dialog .ui-dialog-titlebar-close:after, .ui-dialog .ui-dialog-titlebar-close:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 50%;
+  width: 50%;
+  height: 0;
+  content: "";
+  border-top: solid 2px currentColor;
+}
+.ui-dialog .ui-dialog-titlebar-close:before {
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+.ui-dialog .ui-dialog-titlebar-close:after {
+  transform: translate(-50%, 50%) rotate(45deg);
+}
+
+.ck-source-editing-area {
+  color: #222330;
+}

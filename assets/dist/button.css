@@ -1,0 +1,94 @@
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./assets/scss/button.scss ***!
+  \****************************************************************************************************************************************************************************************/
+a.btn {
+  border-radius: var(--wsBorderRadius, unset);
+  padding: 7px 18px 9px;
+  font-size: 24px;
+  line-height: 30px;
+}
+a.btn.btn-primary.filled, .layout-container.ws-button-fill--filled--global a.btn.btn-primary, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-primary {
+  background-color: var(--wsPartnerColor, black);
+  color: var(--ylb-color-white, white);
+  border: 2px solid transparent;
+}
+a.btn.btn-primary.filled:hover, .layout-container.ws-button-fill--filled--global a.btn.btn-primary:hover, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-primary:hover {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border-color: var(--wsPartnerColor, black);
+}
+a.btn.btn-primary.outline, .layout-container.ws-button-fill--outlined--global a.btn.btn-primary, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-primary {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border: 2px solid var(--wsPartnerColor, black);
+}
+a.btn.btn-primary.outline:hover, .layout-container.ws-button-fill--outlined--global a.btn.btn-primary:hover, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-primary:hover {
+  background-color: var(--wsPartnerColor, black);
+  color: var(--ylb-color-white, white);
+  border-color: transparent;
+}
+a.btn.btn-secondary.filled, .layout-container.ws-button-fill--filled--global a.btn.btn-secondary.filled, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-secondary.filled {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border: 2px solid transparent;
+}
+a.btn.btn-secondary.filled:hover, .layout-container.ws-button-fill--filled--global a.btn.btn-secondary.filled:hover, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-secondary.filled:hover {
+  background-color: transparent;
+  color: var(--ylb-color-white, white);
+  border-color: var(--ylb-color-white, white);
+}
+.layout-container.ws-button-fill--filled--global .ws-button-position--overlapping a.btn.btn-secondary.filled:hover {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border-color: var(--wsPrimaryColor, #fff);
+}
+a.btn.btn-secondary.outline, .layout-container.ws-button-fill--outlined--global a.btn.btn-secondary, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-secondary {
+  background-color: transparent;
+  color: var(--ylb-color-white, white);
+  border: 2px solid var(--ylb-color-white, white);
+}
+a.btn.btn-secondary.outline:hover, .layout-container.ws-button-fill--outlined--global a.btn.btn-secondary:hover, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-secondary:hover {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border-color: transparent;
+}
+a.btn.btn-primary.revert.filled, .layout-container.ws-button-fill--filled--global a.btn.btn-primary.revert, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-primary.revert {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border: 2px solid var(--wsPartnerColor, black);
+}
+a.btn.btn-primary.revert.filled:hover, .layout-container.ws-button-fill--filled--global a.btn.btn-primary.revert:hover, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-primary.revert:hover {
+  background-color: var(--wsPartnerColor, black);
+  color: var(--ylb-color-white, white);
+  border-color: transparent;
+}
+a.btn.btn-primary.revert.outline, .layout-container.ws-button-fill--outlined--global a.btn.btn-primary.revert, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-primary.revert {
+  background-color: var(--wsPartnerColor, black);
+  color: var(--ylb-color-white, white);
+  border: 2px solid transparent;
+}
+a.btn.btn-primary.revert.outline:hover, .layout-container.ws-button-fill--outlined--global a.btn.btn-primary.revert:hover, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-primary.revert:hover {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border-color: var(--wsPartnerColor, black);
+}
+a.btn.btn-secondary.revert.filled, .layout-container.ws-button-fill--filled--global a.btn.btn-secondary.revert, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-secondary.revert {
+  background-color: transparent;
+  color: var(--ylb-color-white, white);
+  border: 2px solid var(--ylb-color-white, white);
+}
+a.btn.btn-secondary.revert.filled:hover, .layout-container.ws-button-fill--filled--global a.btn.btn-secondary.revert:hover, .layout-container .block-layout-builder.ws-button-fill--filled--component a.btn.btn-secondary.revert:hover {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border-color: transparent;
+}
+a.btn.btn-secondary.revert.outline, .layout-container.ws-button-fill--outlined--global a.btn.btn-secondary.revert, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-secondary.revert {
+  background-color: var(--ylb-color-white, white);
+  color: var(--wsPartnerColor, black);
+  border: 2px solid transparent;
+}
+a.btn.btn-secondary.revert.outline:hover, .layout-container.ws-button-fill--outlined--global a.btn.btn-secondary.revert:hover, .layout-container .block-layout-builder.ws-button-fill--outlined--component a.btn.btn-secondary.revert:hover {
+  background-color: transparent;
+  color: var(--ylb-color-white, white);
+  border-color: var(--ylb-color-white, white);
+}

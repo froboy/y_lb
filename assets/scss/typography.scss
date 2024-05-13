@@ -1,6 +1,6 @@
-@import "_functions";
-@import "_mixins";
-@import "_variables";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/variables";
 
 .lb__content .body.field-item, .layout-builder__layout .body.field-item, .layout-builder__layout .field-body.field-item, .cke_editable_themed {
   color: var(--ylb-color-dark-grey-1, darkgray);

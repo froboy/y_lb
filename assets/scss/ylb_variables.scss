@@ -1,0 +1,48 @@
+$prefix: ylb-;
+
+$ylb-color-red-dark: #a92b31;
+$ylb-color-red: #ed1c24;
+$ylb-color-red-light: #f15922;
+$ylb-color-orange-dark: #dd5828;
+$ylb-color-orange: #f47920;
+$ylb-color-orange-light: #fcaf17;
+$ylb-color-green-dark: #006b6b;
+$ylb-color-green: #01a490;
+$ylb-color-green-light: #20bdbe;
+$ylb-color-blue-dark: #0060af;
+$ylb-color-blue: #0089d0;
+$ylb-color-blue-light: #00aeef;
+$ylb-color-purple-dark: #5c2e91;
+$ylb-color-purple: #92278f;
+$ylb-color-purple-light: #c6168d;
+$ylb-color-white: #FFFFFF;
+$ylb-color-light-grey-1: #f2f2f2;
+$ylb-color-light-grey-2: #e7e7e7;
+$ylb-color-light-grey-3: #cccccc;
+$ylb-color-grey-1: #636466;
+$ylb-color-grey-2: #4F4F4F;
+$ylb-color-grey-3: #3F4042;
+$ylb-color-dark-grey-1: #2F2F2F;
+$ylb-color-dark-grey-2: #231F20;
+$ylb-color-black: #000000;
+
+// Set bootstrap helpers to Y versions.
+$secondary: $ylb-color-grey-3;
+$success: $ylb-color-green-dark;
+$danger: $ylb-color-red-dark;
+$warning: $ylb-color-orange-light;
+$info: $ylb-color-blue-light;
+$light: $ylb-color-light-grey-1;
+$dark: $ylb-color-dark-grey-2;
+
+// Body
+$body-color: $ylb-color-dark-grey-1;
+$body-bg: $ylb-color-white;
+
+$body-color-dark: $ylb-color-white;
+$body-bg-dark: $ylb-color-dark-grey-2;
+
+// Fonts
+$font-family-sans-serif: Verdana, Geneva, sans-serif;
+$headings-font-family: Cachet, Verdana, Geneva, sans-serif;
+$headings-font-weight: 400;

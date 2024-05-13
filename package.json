@@ -5,21 +5,30 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "css:compile": "node-sass --include-path node_modules/bootstrap/scss --importer node_modules/node-sass-magic-importer/dist/cli.js ./assets/scss -o ./assets/css",
-    "css:prefix": "postcss --use autoprefixer -b '> 10%' ./assets/css/*.css -r",
-    "css:build": "npm run css:compile && npm run css:prefix",
-    "css:watch": "nodemon -e scss -x \"npm run css:build\" --ignore ./assets/css",
-    "watch": "nodemon -e scss,js -x \"npm run build\" --ignore ./assets/css",
-    "build": "npm run css:build"
+    "watch": "webpack --watch",
+    "build": "webpack build --mode=production"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.13",
-    "bootstrap": "^4.4.1",
-    "breakpoint-sass": "^2.7.1",
-    "node-sass": "^7.0.3",
-    "node-sass-magic-importer": "^5.3.2",
-    "nodemon": "^2.0.20",
-    "postcss": "^8.4.19",
-    "postcss-cli": "^10.0.0"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "breakpoint-sass": "^3.0.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^3.1.0",
+    "postcss-cli": "^11.0.0",
+    "purgecss": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.1",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss-loader": "^8.1.1",
+    "purgecss-webpack-plugin": "^6.0.0",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-watched-glob-entries-plugin": "^3.0.0"
   }
 }

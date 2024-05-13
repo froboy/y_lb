@@ -1,4 +1,4 @@
-@import "mixins/_screen-reader";
+@import "bootstrap/scss/mixins/_visually-hidden";
 
 .form-required {
   &:after,
@@ -52,7 +52,7 @@
     font-weight: bold;
 
     label {
-      @include sr-only();
+      @include visually-hidden();
     }
   }
 
